@@ -1,0 +1,9 @@
+{
+  "name": "DIKWP DesireBalance OS",
+  "version": "0.1.0",
+  "release_date": "2026-06-26",
+  "license": "Apache-2.0",
+  "attribution": "Yucong Duan / DIKWP",
+  "mode": "offline-first reference implementation",
+  "prohibited_use": ["punitive social scoring", "automatic eligibility denial", "covert intent manipulation", "employment or credit decision"]
+}

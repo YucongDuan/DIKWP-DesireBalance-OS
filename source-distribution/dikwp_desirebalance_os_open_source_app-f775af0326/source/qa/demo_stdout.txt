@@ -1,0 +1,13 @@
+{
+  "desire_count": 5,
+  "competition_context_count": 3,
+  "mean_desire_quality_index": 0.6119,
+  "mean_prosperity_contribution_index": 0.5327,
+  "mean_capture_risk_index": 0.4428,
+  "mean_involution_pressure_index": 0.5769,
+  "route_counts": {
+    "support_and_expand": 2,
+    "cool_and_reframe": 2,
+    "protect_and_expand_basic_capability": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "policy": "No network clients, browser automation, subprocess, credential capture, hidden telemetry, punitive social scoring, or automated denial in the offline core.",
+  "pass": true,
+  "finding_count": 0,
+  "findings": []
+}

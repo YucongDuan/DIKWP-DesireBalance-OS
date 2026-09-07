@@ -1,0 +1,17 @@
+{
+  "policy_id": "dikwp-desirebalance-default-v0.1",
+  "principles": [
+    "Desire is not a moral defect.",
+    "Basic needs and capability expansion have priority over positional competition.",
+    "No score may be used for punishment, eligibility, employment, credit, insurance or policing.",
+    "Weights are local and contestable, not universal constants.",
+    "Evidence, residuals, appeal and exit must remain visible."
+  ],
+  "human_review_required_for": [
+    "sensitive personal data",
+    "employment action",
+    "credit or welfare decision",
+    "coercive platform design",
+    "public policy allocation"
+  ]
+}

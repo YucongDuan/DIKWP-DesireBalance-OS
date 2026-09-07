@@ -1,0 +1,514 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:13:36.653980+00:00",
+  "source": {
+    "archive_path": "dikwp_desirebalance_os_open_source_app.zip",
+    "archive_bytes": 68883,
+    "sha256": "d8c013008cb87218d6d56c36870fbf52086a0d717f8c29ced12ecdc9fde3dab0",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-DesireBalance-OS/1720092229a979012d16cb54a67e6947d681901e/dikwp_desirebalance_os_open_source_app.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/dikwp_desirebalance_os_open_source_app-f775af0326",
+  "unwrapped_directory": "dikwp_desirebalance_os",
+  "project_marker_directories": [
+    "."
+  ],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "dikwp_desirebalance_os/CITATION.cff",
+      "output_path": "source/CITATION.cff",
+      "kind": "file",
+      "bytes": 408,
+      "sha256": "0fb3b9489cbd239094a7b22809c3a216b0b7dab2215caec672940f574aa6eab7",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/CODE_OF_CONDUCT.md",
+      "output_path": "source/CODE_OF_CONDUCT.md",
+      "kind": "file",
+      "bytes": 215,
+      "sha256": "78a7ac3eebd187031b4b9f8e40e341ad9a3422f7dcda6526a63511bcd0e756fc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/CONTRIBUTING.md",
+      "output_path": "source/CONTRIBUTING.md",
+      "kind": "file",
+      "bytes": 453,
+      "sha256": "fa22a28fb1e59ba323f7dfc4159694bfe93c89ad801d7c4d8b75727f4f512e9d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/Dockerfile",
+      "output_path": "source/Dockerfile",
+      "kind": "file",
+      "bytes": 127,
+      "sha256": "e976ac0702ed2abfdf5d00e7646edda5736f926f02043e56137157c5070631eb",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/LICENSE",
+      "output_path": "source/LICENSE",
+      "kind": "file",
+      "bytes": 643,
+      "sha256": "9fd98e002b5c29735c0eb74f0b84a68c348e36720888119bf04bc01a089f0ed7",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/NOTICE",
+      "output_path": "source/NOTICE",
+      "kind": "file",
+      "bytes": 551,
+      "sha256": "395d3ca9fa7f84c85811e58e5491ec4188e3a70ece7ea4a1d9e638065b8e9f04",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/README.md",
+      "output_path": "source/README.md",
+      "kind": "file",
+      "bytes": 1781,
+      "sha256": "b67687ca37cdec3fc884356acfc5c32ed3c69ede68886a5f7db8aa122dbdb651",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/SECURITY.md",
+      "output_path": "source/SECURITY.md",
+      "kind": "file",
+      "bytes": 321,
+      "sha256": "2f9ebdd2082cf3b722dc0a6487925fe4d61588128daaac44c807e4d1b481e441",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/checksums_sha256.json",
+      "output_path": "source/checksums_sha256.json",
+      "kind": "file",
+      "bytes": 5321,
+      "sha256": "ce8fdaf882d34d76387755285cbee5aa2dc7811c44c49f51d6e553b992d8590b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/configs/default_policy.json",
+      "output_path": "source/configs/default_policy.json",
+      "kind": "file",
+      "bytes": 623,
+      "sha256": "08a3f29addecf5506d458755e4932d0177660244237ddcc2c220fc5d1cd7034d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/anti_involution_playbook.md",
+      "output_path": "source/docs/anti_involution_playbook.md",
+      "kind": "file",
+      "bytes": 375,
+      "sha256": "19769da67c22eff7295ac3da68a1e94241068ab8040702b7ef2e3c22245cb8bd",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/architecture.md",
+      "output_path": "source/docs/architecture.md",
+      "kind": "file",
+      "bytes": 262,
+      "sha256": "8dc866549a97b66411cb9d436cbbe1e31335bb2bb204cc2448924f58e1f2c83c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/benefit_path_for_yucong_duan.md",
+      "output_path": "source/docs/benefit_path_for_yucong_duan.md",
+      "kind": "file",
+      "bytes": 283,
+      "sha256": "93d1dc1e091f4eedabec0ff10225ada851d7243d87b75c0040a03bf9900a4da2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/desire_metrology_protocol.md",
+      "output_path": "source/docs/desire_metrology_protocol.md",
+      "kind": "file",
+      "bytes": 442,
+      "sha256": "ca8ff71c543d8e94c394a2afb59d7dfe7bc50a088a4d2ab10e2225da663c00a9",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/desire_prosperity_anti_involution_research_companion_2026.md",
+      "output_path": "source/docs/desire_prosperity_anti_involution_research_companion_2026.md",
+      "kind": "file",
+      "bytes": 72661,
+      "sha256": "5ab061b370ce59c324089138761ac2c5e7b3d5091455d28c1a776fe8079e04bf",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/dikwp_model_mapping.md",
+      "output_path": "source/docs/dikwp_model_mapping.md",
+      "kind": "file",
+      "bytes": 443,
+      "sha256": "2519c93cc11f6cd34c191162242846d209569cd33d280759bf36fb2add27e3d9",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/github_release_draft.md",
+      "output_path": "source/docs/github_release_draft.md",
+      "kind": "file",
+      "bytes": 194,
+      "sha256": "afbba81261685adca0fa8a4aa0a9626d6d065a8835a72c6170b2c8a91e0cf09e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/governance_boundary.md",
+      "output_path": "source/docs/governance_boundary.md",
+      "kind": "file",
+      "bytes": 229,
+      "sha256": "167585c6cf7b28619e541f7ec0d22b923d71976cbc3175efbc7644fdac8cf044",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/landing_page_copy.md",
+      "output_path": "source/docs/landing_page_copy.md",
+      "kind": "file",
+      "bytes": 172,
+      "sha256": "d06a3715b215b2a37ab8d1e6e9fe61feee1439fd808ea58db00f25b9aea7b8b0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/market_research_summary.md",
+      "output_path": "source/docs/market_research_summary.md",
+      "kind": "file",
+      "bytes": 213,
+      "sha256": "9dc99891f4e963b3e72a9da274a3db186a1931b10bc60f3dafb80337173d7eaf",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/open_source_launch_plan.md",
+      "output_path": "source/docs/open_source_launch_plan.md",
+      "kind": "file",
+      "bytes": 339,
+      "sha256": "51bd223176a4625aa0ebc778dabc8a9d2d8327b1ac24ef20cb6d169851e6a68b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/product_brief_zh.md",
+      "output_path": "source/docs/product_brief_zh.md",
+      "kind": "file",
+      "bytes": 507,
+      "sha256": "1a082873902ab55bc3e3e8b9bbefc0098b042e924d2dd06053f81776371c431d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/roadmap.md",
+      "output_path": "source/docs/roadmap.md",
+      "kind": "file",
+      "bytes": 246,
+      "sha256": "dfd6a67bbf0ad136873bd9c7646676f848879232c4e51fe560e644450e89440a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/docs/source_synthesis.md",
+      "output_path": "source/docs/source_synthesis.md",
+      "kind": "file",
+      "bytes": 290,
+      "sha256": "3448499763a4a4fcf1c05590260ffe805a4df54651d0ce46a477e180916f1822",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/examples/sample_multirole_case.json",
+      "output_path": "source/examples/sample_multirole_case.json",
+      "kind": "file",
+      "bytes": 6067,
+      "sha256": "25c889fdad78b4c7a598004275538d088d195dc3945cf9945db4daef754fbc10",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/file_index.txt",
+      "output_path": "source/file_index.txt",
+      "kind": "file",
+      "bytes": 1508,
+      "sha256": "8effdb56f557308e3ff769998d8cb256f112263bc2a8c58aca4e8c8dee675e58",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/manifest.json",
+      "output_path": "source/manifest.json",
+      "kind": "file",
+      "bytes": 356,
+      "sha256": "0781cc60a5c233f6515eacf53dca3c2bcae78ef9d10409763b8021fc5d67df6f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/community_policy_option_set.md",
+      "output_path": "source/outputs/demo/community_policy_option_set.md",
+      "kind": "file",
+      "bytes": 616,
+      "sha256": "c799809d672492b332e65c7bfabf349b143c869ce375d0397f916a410bd41a6d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/desire_metrology_ledger.json",
+      "output_path": "source/outputs/demo/desire_metrology_ledger.json",
+      "kind": "file",
+      "bytes": 6363,
+      "sha256": "98d7965ae9629bb9869b655a8b0efd6616a6b48d2dd485c9abb9fbfafa31ee56",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/desire_portfolio.csv",
+      "output_path": "source/outputs/demo/desire_portfolio.csv",
+      "kind": "file",
+      "bytes": 767,
+      "sha256": "d47664becfdc5af73774a74aa5c37d415ea0410327a3701d44f7b85f15b656f2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/desirebalance_report.json",
+      "output_path": "source/outputs/demo/desirebalance_report.json",
+      "kind": "file",
+      "bytes": 13216,
+      "sha256": "fb6554b4df161843d0f78c023f2ea7f0fd78a9f1a1bb4205fd5638570d75af2b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/involution_pressure_matrix.csv",
+      "output_path": "source/outputs/demo/involution_pressure_matrix.csv",
+      "kind": "file",
+      "bytes": 320,
+      "sha256": "ed9cd13fab83bfaab2eda427b822a3c10c5d5999e90691f90e97abc408db1b25",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/organization_kpi_reform_plan.md",
+      "output_path": "source/outputs/demo/organization_kpi_reform_plan.md",
+      "kind": "file",
+      "bytes": 425,
+      "sha256": "2ec00ff4a9d275a08e15faae9c77d6e4ff8e9e04f2582e88cee6a9a837c8a2b8",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/platform_manipulation_audit.md",
+      "output_path": "source/outputs/demo/platform_manipulation_audit.md",
+      "kind": "file",
+      "bytes": 534,
+      "sha256": "d0bb973f44013f19881c5f1c1f846ff20417abd9684cddd77c877eeb37f2c3ca",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/prosperity_conversion_plan.md",
+      "output_path": "source/outputs/demo/prosperity_conversion_plan.md",
+      "kind": "file",
+      "bytes": 1075,
+      "sha256": "cdf09f7b929cd8fbd56068353d6a0cca30a0d480a06dd38df0dcefc40342a0f9",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/purpose_contract.json",
+      "output_path": "source/outputs/demo/purpose_contract.json",
+      "kind": "file",
+      "bytes": 563,
+      "sha256": "75dbc7b0345d1567407f8d180a81591ce3920a4b50f9afc6f576e1521caadf6d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/role_specific_action_plans.md",
+      "output_path": "source/outputs/demo/role_specific_action_plans.md",
+      "kind": "file",
+      "bytes": 1660,
+      "sha256": "8e2972c10344590633646f22de1674c0e8f1be7e2e61afe5ace2edcf29251821",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/outputs/demo/static_boundary_audit_report.json",
+      "output_path": "source/outputs/demo/static_boundary_audit_report.json",
+      "kind": "file",
+      "bytes": 229,
+      "sha256": "da6288dccf4083b8df9c7d73434ed7f4a5dad77838dd3997f1f4b27539565e28",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/pyproject.toml",
+      "output_path": "source/pyproject.toml",
+      "kind": "file",
+      "bytes": 648,
+      "sha256": "e02264260235809f60a17bee06db08c03415b1c63ba9bcdc71c81f0b7dd8803f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/qa/demo_stdout.txt",
+      "output_path": "source/qa/demo_stdout.txt",
+      "kind": "file",
+      "bytes": 352,
+      "sha256": "346202e6e0e8c8261d08b7f0d01c1b1158441f263de60a73f835c7971b03b2d0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/qa/pytest_report.txt",
+      "output_path": "source/qa/pytest_report.txt",
+      "kind": "file",
+      "bytes": 98,
+      "sha256": "35a1d58c48b74e0e3e7b158b5545a9552f2371583edfef1ea0d022c59f5a0a1c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/qa/qa_report.json",
+      "output_path": "source/qa/qa_report.json",
+      "kind": "file",
+      "bytes": 753,
+      "sha256": "4c7f8b63cac3d1d62c10205367b75b5af00aab9f4fc75a3fe1b2644944e5be13",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/qa/static_audit_stdout.txt",
+      "output_path": "source/qa/static_audit_stdout.txt",
+      "kind": "file",
+      "bytes": 230,
+      "sha256": "dc7050e02cb764a85f8b11f87f20cf02feb744350092a0157796c29443455ae0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/schemas/desirebalance_case_schema_v0_1.json",
+      "output_path": "source/schemas/desirebalance_case_schema_v0_1.json",
+      "kind": "file",
+      "bytes": 497,
+      "sha256": "9dd01ac50b5aabf4436e1b2a6650f3f519e02350265ae2f25efb91c72068e3a1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/__init__.py",
+      "output_path": "source/src/dikwp_desirebalance/__init__.py",
+      "kind": "file",
+      "bytes": 52,
+      "sha256": "c7933537194a146fad47e4b5cdeb3c6ac75929949008e1953bf78b072018e73f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/app.py",
+      "output_path": "source/src/dikwp_desirebalance/app.py",
+      "kind": "file",
+      "bytes": 889,
+      "sha256": "d639273238fd8e2d2acc057d4caa7ab4bdd3a467666c8b652817bb549afe1abc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/cli.py",
+      "output_path": "source/src/dikwp_desirebalance/cli.py",
+      "kind": "file",
+      "bytes": 1181,
+      "sha256": "52ade75b0326c6062dcd7c99efb4534dcdd6ed0e32d67c66d6b4d3cd6a1b2a2a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/evaluator.py",
+      "output_path": "source/src/dikwp_desirebalance/evaluator.py",
+      "kind": "file",
+      "bytes": 6251,
+      "sha256": "6ce3bd5c8d4dcc6e2b686986c1c8ec159be2f94a664dfb23b128789502eac759",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/models.py",
+      "output_path": "source/src/dikwp_desirebalance/models.py",
+      "kind": "file",
+      "bytes": 1780,
+      "sha256": "1b5e7c15ad51e8dc8e4ab36b4d0e72893f38c4295b43aca975c71bf989769387",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/reports.py",
+      "output_path": "source/src/dikwp_desirebalance/reports.py",
+      "kind": "file",
+      "bytes": 4508,
+      "sha256": "1b0706fca1954f1366b6fe61b3dfd056d3bc1bb644ad997c19fef406dd42df5a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/scoring.py",
+      "output_path": "source/src/dikwp_desirebalance/scoring.py",
+      "kind": "file",
+      "bytes": 3531,
+      "sha256": "9e3826c0a095f9f22d582dbe6af42d192911aaf50270ad610c66bb40c95864f8",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/src/dikwp_desirebalance/static_audit.py",
+      "output_path": "source/src/dikwp_desirebalance/static_audit.py",
+      "kind": "file",
+      "bytes": 1956,
+      "sha256": "938cb8e7f1557986fccc5b9bdd42ad5a546fa13c7a1dcafffff638d6e170e5d2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_desirebalance_os/tests/test_core.py",
+      "output_path": "source/tests/test_core.py",
+      "kind": "file",
+      "bytes": 981,
+      "sha256": "c89cb0d9e0e16898af941fc82f69870fdb41c53b3ad69c3d075bb77f9d3becec",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIKWP DesireBalance Case",
+  "type": "object",
+  "required": ["case_id", "title", "purpose_contract", "desire_items", "competition_contexts"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "title": {"type": "string"},
+    "purpose_contract": {"type": "object"},
+    "desire_items": {"type": "array", "items": {"type": "object"}},
+    "competition_contexts": {"type": "array", "items": {"type": "object"}}
+  }
+}

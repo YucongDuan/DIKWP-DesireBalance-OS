@@ -1,0 +1,6 @@
+desire_id,actor_id,actor_type,name,category,desire_quality_index,prosperity_contribution_index,capture_risk_index,sufficiency_gap_proxy,route
+d1,person-a,individual,Skills and health investment,capability,0.9911,0.7657,0.1668,0.14,support_and_expand
+d2,household-b,household,Prestige education arms race,positional_education,0.2341,0.318,0.7966,0.58,cool_and_reframe
+d3,company-c,organization,Product quality and shared innovation,productive_growth,0.8343,0.7072,0.2661,0.3,support_and_expand
+d4,platform-d,platform,High-frequency purchase conversion,captured_consumption,0.0552,0.0818,0.8068,0.92,cool_and_reframe
+d5,city-e,policy,Public service and cultural consumption expansion,public_capability,0.9446,0.791,0.1776,0.16,protect_and_expand_basic_capability

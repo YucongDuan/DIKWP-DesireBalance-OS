@@ -1,0 +1,351 @@
+{
+  "system": "DIKWP DesireBalance OS",
+  "version": "0.1.0",
+  "case_id": "desirebalance-demo-001",
+  "title": "Multi-actor prosperity and anti-involution demonstration",
+  "overall_decision": "human_review_and_local_calibration_required",
+  "summary": {
+    "desire_count": 5,
+    "competition_context_count": 3,
+    "mean_desire_quality_index": 0.6119,
+    "mean_prosperity_contribution_index": 0.5327,
+    "mean_capture_risk_index": 0.4428,
+    "mean_involution_pressure_index": 0.5769,
+    "route_counts": {
+      "support_and_expand": 2,
+      "cool_and_reframe": 2,
+      "protect_and_expand_basic_capability": 1
+    }
+  },
+  "purpose_contract": {
+    "goal": "Expand demand and innovation without converting social security, dignity and identity into endless rank competition.",
+    "value": "Prosperity, autonomy, capability, durable wellbeing and fair participation.",
+    "constraints": [
+      "No punitive individual scoring",
+      "No covert manipulation",
+      "No forced consumption",
+      "No automated employment, credit or welfare decision"
+    ],
+    "time_window": "12-month pilot with quarterly review",
+    "feedback_plan": "Publish aggregate outcomes, distributional impacts, residuals and exit conditions."
+  },
+  "desire_scores": [
+    {
+      "desire_id": "d1",
+      "actor_id": "person-a",
+      "actor_type": "individual",
+      "name": "Skills and health investment",
+      "category": "capability",
+      "desire_quality_index": 0.9911,
+      "prosperity_contribution_index": 0.7657,
+      "capture_risk_index": 0.1668,
+      "sufficiency_gap_proxy": 0.14,
+      "route": "support_and_expand"
+    },
+    {
+      "desire_id": "d2",
+      "actor_id": "household-b",
+      "actor_type": "household",
+      "name": "Prestige education arms race",
+      "category": "positional_education",
+      "desire_quality_index": 0.2341,
+      "prosperity_contribution_index": 0.318,
+      "capture_risk_index": 0.7966,
+      "sufficiency_gap_proxy": 0.58,
+      "route": "cool_and_reframe"
+    },
+    {
+      "desire_id": "d3",
+      "actor_id": "company-c",
+      "actor_type": "organization",
+      "name": "Product quality and shared innovation",
+      "category": "productive_growth",
+      "desire_quality_index": 0.8343,
+      "prosperity_contribution_index": 0.7072,
+      "capture_risk_index": 0.2661,
+      "sufficiency_gap_proxy": 0.3,
+      "route": "support_and_expand"
+    },
+    {
+      "desire_id": "d4",
+      "actor_id": "platform-d",
+      "actor_type": "platform",
+      "name": "High-frequency purchase conversion",
+      "category": "captured_consumption",
+      "desire_quality_index": 0.0552,
+      "prosperity_contribution_index": 0.0818,
+      "capture_risk_index": 0.8068,
+      "sufficiency_gap_proxy": 0.92,
+      "route": "cool_and_reframe"
+    },
+    {
+      "desire_id": "d5",
+      "actor_id": "city-e",
+      "actor_type": "policy",
+      "name": "Public service and cultural consumption expansion",
+      "category": "public_capability",
+      "desire_quality_index": 0.9446,
+      "prosperity_contribution_index": 0.791,
+      "capture_risk_index": 0.1776,
+      "sufficiency_gap_proxy": 0.16,
+      "route": "protect_and_expand_basic_capability"
+    }
+  ],
+  "involution_scores": [
+    {
+      "context_id": "c1",
+      "name": "Household education tournament",
+      "actor_type": "household",
+      "involution_pressure_index": 0.7722,
+      "grade": "I4 Severe Involution Pressure"
+    },
+    {
+      "context_id": "c2",
+      "name": "Organization overtime and ranking tournament",
+      "actor_type": "organization",
+      "involution_pressure_index": 0.7491,
+      "grade": "I4 Severe Involution Pressure"
+    },
+    {
+      "context_id": "c3",
+      "name": "Community capability expansion",
+      "actor_type": "community",
+      "involution_pressure_index": 0.2094,
+      "grade": "I0 Low Involution Pressure"
+    }
+  ],
+  "dikwp_ledger": [
+    {
+      "object_id": "d1",
+      "D": {
+        "description": "Spend on vocational learning, preventive health, exercise and recovery.",
+        "intensity": 0.74
+      },
+      "I": {
+        "category": "capability",
+        "actor_type": "individual"
+      },
+      "K": {
+        "desire_quality_index": 0.9911,
+        "capture_risk_index": 0.1668
+      },
+      "W": {
+        "externality": 0.08,
+        "ecological_externality": 0.12,
+        "reversibility": 0.78
+      },
+      "P": {
+        "goal": "Expand demand and innovation without converting social security, dignity and identity into endless rank competition.",
+        "value": "Prosperity, autonomy, capability, durable wellbeing and fair participation.",
+        "constraints": [
+          "No punitive individual scoring",
+          "No covert manipulation",
+          "No forced consumption",
+          "No automated employment, credit or welfare decision"
+        ],
+        "time_window": "12-month pilot with quarterly review",
+        "feedback_plan": "Publish aggregate outcomes, distributional impacts, residuals and exit conditions."
+      },
+      "R": {
+        "evidence_strength": 0.72,
+        "route": "support_and_expand",
+        "residual": "Local calibration required; score is not a diagnosis or moral rank."
+      }
+    },
+    {
+      "object_id": "d2",
+      "D": {
+        "description": "Escalating tutoring and credential purchases mainly to avoid falling behind neighbors.",
+        "intensity": 0.91
+      },
+      "I": {
+        "category": "positional_education",
+        "actor_type": "household"
+      },
+      "K": {
+        "desire_quality_index": 0.2341,
+        "capture_risk_index": 0.7966
+      },
+      "W": {
+        "externality": 0.66,
+        "ecological_externality": 0.15,
+        "reversibility": 0.35
+      },
+      "P": {
+        "goal": "Expand demand and innovation without converting social security, dignity and identity into endless rank competition.",
+        "value": "Prosperity, autonomy, capability, durable wellbeing and fair participation.",
+        "constraints": [
+          "No punitive individual scoring",
+          "No covert manipulation",
+          "No forced consumption",
+          "No automated employment, credit or welfare decision"
+        ],
+        "time_window": "12-month pilot with quarterly review",
+        "feedback_plan": "Publish aggregate outcomes, distributional impacts, residuals and exit conditions."
+      },
+      "R": {
+        "evidence_strength": 0.52,
+        "route": "cool_and_reframe",
+        "residual": "Local calibration required; score is not a diagnosis or moral rank."
+      }
+    },
+    {
+      "object_id": "d3",
+      "D": {
+        "description": "Invest in quality, safety, worker learning and reusable knowledge rather than only sales ranking.",
+        "intensity": 0.82
+      },
+      "I": {
+        "category": "productive_growth",
+        "actor_type": "organization"
+      },
+      "K": {
+        "desire_quality_index": 0.8343,
+        "capture_risk_index": 0.2661
+      },
+      "W": {
+        "externality": 0.2,
+        "ecological_externality": 0.28,
+        "reversibility": 0.64
+      },
+      "P": {
+        "goal": "Expand demand and innovation without converting social security, dignity and identity into endless rank competition.",
+        "value": "Prosperity, autonomy, capability, durable wellbeing and fair participation.",
+        "constraints": [
+          "No punitive individual scoring",
+          "No covert manipulation",
+          "No forced consumption",
+          "No automated employment, credit or welfare decision"
+        ],
+        "time_window": "12-month pilot with quarterly review",
+        "feedback_plan": "Publish aggregate outcomes, distributional impacts, residuals and exit conditions."
+      },
+      "R": {
+        "evidence_strength": 0.66,
+        "route": "support_and_expand",
+        "residual": "Local calibration required; score is not a diagnosis or moral rank."
+      }
+    },
+    {
+      "object_id": "d4",
+      "D": {
+        "description": "Use countdowns, streak loss, infinite scroll and inferred intention bidding to maximize purchases.",
+        "intensity": 0.95
+      },
+      "I": {
+        "category": "captured_consumption",
+        "actor_type": "platform"
+      },
+      "K": {
+        "desire_quality_index": 0.0552,
+        "capture_risk_index": 0.8068
+      },
+      "W": {
+        "externality": 0.82,
+        "ecological_externality": 0.52,
+        "reversibility": 0.22
+      },
+      "P": {
+        "goal": "Expand demand and innovation without converting social security, dignity and identity into endless rank competition.",
+        "value": "Prosperity, autonomy, capability, durable wellbeing and fair participation.",
+        "constraints": [
+          "No punitive individual scoring",
+          "No covert manipulation",
+          "No forced consumption",
+          "No automated employment, credit or welfare decision"
+        ],
+        "time_window": "12-month pilot with quarterly review",
+        "feedback_plan": "Publish aggregate outcomes, distributional impacts, residuals and exit conditions."
+      },
+      "R": {
+        "evidence_strength": 0.7,
+        "route": "cool_and_reframe",
+        "residual": "Local calibration required; score is not a diagnosis or moral rank."
+      }
+    },
+    {
+      "object_id": "d5",
+      "D": {
+        "description": "Expand accessible care, sports, libraries, cultural services and vocational mobility.",
+        "intensity": 0.78
+      },
+      "I": {
+        "category": "public_capability",
+        "actor_type": "policy"
+      },
+      "K": {
+        "desire_quality_index": 0.9446,
+        "capture_risk_index": 0.1776
+      },
+      "W": {
+        "externality": 0.12,
+        "ecological_externality": 0.25,
+        "reversibility": 0.61
+      },
+      "P": {
+        "goal": "Expand demand and innovation without converting social security, dignity and identity into endless rank competition.",
+        "value": "Prosperity, autonomy, capability, durable wellbeing and fair participation.",
+        "constraints": [
+          "No punitive individual scoring",
+          "No covert manipulation",
+          "No forced consumption",
+          "No automated employment, credit or welfare decision"
+        ],
+        "time_window": "12-month pilot with quarterly review",
+        "feedback_plan": "Publish aggregate outcomes, distributional impacts, residuals and exit conditions."
+      },
+      "R": {
+        "evidence_strength": 0.6,
+        "route": "protect_and_expand_basic_capability",
+        "residual": "Local calibration required; score is not a diagnosis or moral rank."
+      }
+    }
+  ],
+  "role_actions": {
+    "community": [
+      "Expand public cultural, health, education, sport and care services that reduce positional scarcity.",
+      "Use capability vouchers and access infrastructure instead of coercive consumption targets.",
+      "Track who carries the cost of growth and who can exit a failed policy."
+    ],
+    "household": [
+      "Create a care-time and resilience floor before status-oriented spending.",
+      "Replace single-rank education targets with a portfolio of capability and wellbeing goals.",
+      "Make debt and comparison pressure visible in household decisions."
+    ],
+    "individual": [
+      "Separate basic needs, capability goals, relational goals, and positional competition.",
+      "For high-capture desires, add a cooling interval and define a sufficiency threshold.",
+      "Measure debt, time, attention and recovery cost together with purchase price."
+    ],
+    "organization": [
+      "Reduce rank-only KPIs, forced overtime and repeated internal tournaments.",
+      "Reward quality, learning, safety, cooperation, customer value and reusable knowledge.",
+      "Publish exit, appeal and workload recovery mechanisms."
+    ],
+    "platform": [
+      "Audit urgency, infinite-scroll, streak, shame and hidden-retention mechanisms.",
+      "Give users an intent reset, easy opt-out and clear commercial sponsorship labels.",
+      "Do not sell inferred intentions without specific, revocable consent."
+    ],
+    "policy": [
+      "Coordinate consumption support with social protection, wage growth and public services.",
+      "Treat destructive price wars, forced overtime and rank inflation as system design problems.",
+      "Require evidence, review, sunset clauses and distributional analysis for interventions."
+    ]
+  },
+  "residuals": [
+    "Weights are local policy parameters, not universal moral constants.",
+    "Scores cannot determine a person's worth, eligibility, employment, credit or punishment.",
+    "Longitudinal outcomes and distributional effects require external evaluation."
+  ],
+  "kill_conditions": [
+    "Use of the tool for punitive social scoring or automated eligibility decisions.",
+    "Hidden profiling, covert persuasion or sale of inferred intentions without consent.",
+    "Removal of evidence, uncertainty, appeal or exit mechanisms."
+  ],
+  "recovery_conditions": [
+    "Return to aggregate and voluntary analysis.",
+    "Restore purpose, evidence, residual and appeal ledgers.",
+    "Recalibrate weights with affected stakeholders and publish distributional impacts."
+  ]
+}

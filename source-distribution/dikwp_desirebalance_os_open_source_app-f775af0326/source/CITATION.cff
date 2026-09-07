@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DIKWP DesireBalance OS"
+type: software
+authors:
+  - family-names: Duan
+    given-names: Yucong
+version: 0.1.0
+date-released: 2026-06-26
+license: Apache-2.0
+repository-code: "https://github.com/YucongDuan"
+keywords:
+  - DIKWP
+  - desire economy
+  - involution
+  - intention governance
+  - wellbeing
+  - semantic closure

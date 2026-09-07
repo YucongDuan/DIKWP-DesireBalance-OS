@@ -1,0 +1,4 @@
+context_id,name,actor_type,involution_pressure_index,grade
+c1,Household education tournament,household,0.7722,I4 Severe Involution Pressure
+c2,Organization overtime and ranking tournament,organization,0.7491,I4 Severe Involution Pressure
+c3,Community capability expansion,community,0.2094,I0 Low Involution Pressure

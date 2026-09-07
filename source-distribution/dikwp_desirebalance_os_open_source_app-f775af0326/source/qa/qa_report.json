@@ -1,0 +1,23 @@
+{
+  "pytest": "3 passed",
+  "overall_decision": "human_review_and_local_calibration_required",
+  "summary": {
+    "desire_count": 5,
+    "competition_context_count": 3,
+    "mean_desire_quality_index": 0.6119,
+    "mean_prosperity_contribution_index": 0.5327,
+    "mean_capture_risk_index": 0.4428,
+    "mean_involution_pressure_index": 0.5769,
+    "route_counts": {
+      "support_and_expand": 2,
+      "cool_and_reframe": 2,
+      "protect_and_expand_basic_capability": 1
+    }
+  },
+  "static_boundary_audit": {
+    "policy": "No network clients, browser automation, subprocess, credential capture, hidden telemetry, punitive social scoring, or automated denial in the offline core.",
+    "pass": true,
+    "finding_count": 0,
+    "findings": []
+  }
+}
