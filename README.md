@@ -1,6 +1,8 @@
 # DIKWP DesireBalance OS
 
-**Desire metrology, sustainable prosperity conversion, and anti-involution planning.**
+Created by Yucong Duan (段玉聪).
+
+Desire metrology, sustainable prosperity conversion, and anti-involution planning.
 
 DIKWP DesireBalance OS is an offline-first reference system for analyzing the tension between desire-driven prosperity and destructive involution. It does not suppress desire or rank people. It distinguishes basic needs, capability-expanding desires, relational and creative desires, positional competition, manipulative capture, debt/time burdens and externalities.
 
@@ -40,13 +42,13 @@ This project is not a social credit system, diagnostic system, eligibility engin
 
 ## Attribution
 
-Please retain attribution to **Yucong Duan / DIKWP** and the included `NOTICE` and `CITATION.cff` files.
+Please retain attribution to Yucong Duan / DIKWP and the included `NOTICE` and `CITATION.cff` files.
 
 
 <!-- DIKWP-SOURCE-VISIBILITY-START -->
 ## Browse source / 浏览源码
 
-[Source index / 源码入口](SOURCE_INDEX.md) expands the retained archive distribution into browsable files, with archive hashes and per-project provenance. Runtime tests: **NOT_RUN**.
+[Source index / 源码入口](SOURCE_INDEX.md) expands the retained archive distribution into browsable files, with archive hashes and per-project provenance. Runtime tests: NOT_RUN.
 
 原始压缩包 保留；新增可浏览源码、哈希与来源记录。运行与测试尚未执行，详情见源码入口。
 <!-- DIKWP-SOURCE-VISIBILITY-END -->
